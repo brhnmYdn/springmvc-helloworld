@@ -17,4 +17,9 @@ public class HelloController {
 	public String burhan(){
 		return "burhan";
 	}
+
+	@RequestMapping(value = "/husamettin", method = RequestMethod.GET)
+	public String husamettin(){
+		return "husamettin";
+	}
 }
